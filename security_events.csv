@@ -24,14 +24,19 @@
 4616::System time was changed
 4657::A registry value was changed
 4697::An attempt was made to install a service
-4698, 4699, 4700, 4701, 4702::Events related to Windows scheduled tasks being created, modified, deleted, enabled or disabled
+4698::A scheduled task was created
+4699::A scheduled task was deleted
+4700::A scheduled task was enabled
+4701::A scheduled task was disabled
+4702::A scheduled task was updated
 4946::A rule was added to the Windows Firewall exception list
 4947::A rule was modified in the Windows Firewall exception list
 4950::A setting was changed in Windows Firewall
 4954::Group Policy settings for Windows Firewall has changed
 5025::The Windows Firewall service has been stopped
 5031::Windows Firewall blocked an application from accepting incoming traffic
-5152, 5153::A network packet was blocked by Windows Filtering Platform
+5152::A network packet was blocked by Windows Filtering Platform
+5153::A more restrictive Windows Filtering Platform filter has blocked a packet
 5155::Windows Filtering Platform blocked an application or service from listening on a port
 5157::Windows Filtering Platform blocked a connection
 5447::A Windows Filtering Platform filter was changed
